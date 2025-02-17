@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local configuration
+.env
+*.secret
+*.key
+
+# Local state and databases
+data/*
+!data/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
